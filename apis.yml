@@ -1,19 +1,49 @@
 aid: learnplatform
 name: LearnPlatform
-description: LearnPlatform is a company surfaced as a portfolio company of techstars and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: 'LearnPlatform by Instructure is an edtech effectiveness system used by
+  K-12 school districts to organize, streamline, and analyze their education technology.
+  It provides an inventory dashboard of the tools students and educators actually use,
+  rapid-cycle evaluation for measuring impact, ESSA Evidence Badges developed in consultation
+  with the U.S. Department of Education and the Institute of Education Sciences, request
+  and approval workflows, student data privacy and compliance review, and public product
+  libraries for family communication. LearnPlatform Inc. was a Techstars portfolio company
+  and was acquired by Instructure in January 2023; learnplatform.com now redirects into
+  instructure.com product, policy, and support pages, while the application itself is
+  served from app.learnplatform.com. LearnPlatform publishes no public developer API,
+  OpenAPI definition, or SDK surface of its own — Instructure''s public developer program
+  (developerdocs.instructure.com) covers Canvas LMS and related services, not LearnPlatform.'
 url: https://raw.githubusercontent.com/api-evangelist/learnplatform/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://static1.squarespace.com/static/60c967eb48c2345cdcf58924/t/633d826101accf349a32a84f/1650892752328/%28SS%29+Social+Share++Main+Pages.png?format=1500w
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - techstars
-x-tier: stub
-x-tier-reason: portfolio-lead
+x-tier: profiled
+x-tier-reason: enriched-no-public-api
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Education
+- EdTech
+- K-12
+- Learning
+- Analytics
+- Student Data Privacy
+- Evidence
+- Instructure
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +53,68 @@ maintainers:
 common:
 - type: Website
   url: https://learnplatform.com/
+- type: Portal
+  name: LearnPlatform by Instructure product page
+  url: https://www.instructure.com/k12/products/learnplatform
+- type: Documentation
+  name: LearnPlatform guides and knowledge base
+  url: https://community.instructure.com/en/categories/learnplatform
+- type: Support
+  name: Instructure Community — LearnPlatform
+  url: https://community.instructure.com/en/categories/learnplatform
+- type: Blog
+  name: Instructure blog — LearnPlatform posts
+  url: https://www.instructure.com/resources/blog?product_id=481
+- type: Login
+  name: LearnPlatform application sign in
+  url: https://app.learnplatform.com/users/sign_in
+- type: SignUp
+  name: Request a LearnPlatform demo
+  url: https://www.instructure.com/k12/products/learnplatform/request-a-demo
+- type: TermsOfService
+  url: https://www.instructure.com/policies/learnplatform-terms-of-service
+- type: PrivacyPolicy
+  url: https://www.instructure.com/policies/privacy-learnplatform
+- type: GitHubOrganization
+  name: Instructure on GitHub (operator of LearnPlatform)
+  url: https://github.com/instructure
+- type: ChangeLog
+  name: LearnPlatform release notes
+  url: https://community.instructure.com/en/categories/learnplatform-release-notes
+- type: ChangeLog
+  name: LearnPlatform changelog artifact
+  url: changelog/learnplatform-changelog.yml
+- type: StatusPage
+  name: Instructure status — Learn Platform component
+  url: https://status.instructure.com/
+- type: Deprecation
+  name: Instructure enforcements, deprecations, and breaking changes
+  url: https://community.instructure.com/en/kb/articles/664261
+- type: Lifecycle
+  url: lifecycle/learnplatform-lifecycle.yml
+- type: Security
+  name: Instructure vulnerability disclosure policy
+  url: https://www.instructure.com/trust-center/vulnerability-disclosure
+- type: VulnerabilityDisclosure
+  url: security/learnplatform-vulnerability-disclosure.yml
+- type: TrustCenter
+  name: Instructure Trust Center
+  url: https://www.instructure.com/trust-center
+- type: Compliance
+  name: Instructure compliance certifications
+  url: https://www.instructure.com/trust-center/compliance
+- type: Conformance
+  url: conformance/learnplatform-conformance.yml
+- type: DomainSecurity
+  url: security/learnplatform-domain-security.yml
+- type: SecurityTxt
+  url: well-known/learnplatform-security.txt
+- type: WellKnown
+  url: well-known/learnplatform-well-known.yml
+- type: LLMsTxt
+  url: llms/learnplatform-llms.txt
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
