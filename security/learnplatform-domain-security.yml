@@ -1,0 +1,29 @@
+generated: '2026-07-19'
+method: probed
+source: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts
+hosts:
+- host: learnplatform.com
+  https: true
+  tls_version: TLSv1.3
+  cert_expires: Oct  1 19:23:08 2026 GMT
+  hsts: true
+  hsts_max_age: 0
+- host: www.instructure.com
+  https: true
+  tls_version: TLSv1.3
+  cert_expires: Aug  4 02:52:44 2026 GMT
+  hsts: true
+  hsts_max_age: 15768000
+domains:
+- domain: learnplatform.com
+  dnssec: false
+  caa: []
+  spf: true
+  dmarc: true
+  dmarc_policy: none
+- domain: instructure.com
+  dnssec: false
+  caa: []
+  spf: true
+  dmarc: true
+  dmarc_policy: quarantine

@@ -1,0 +1,51 @@
+generated: '2026-07-19'
+method: searched
+probe: false
+note: LearnPlatform publishes no trust center of its own; trust and compliance posture
+  is carried by its operator, Instructure. LearnPlatform is named as a product within
+  the Instructure trust center navigation, but the compliance page does not break out
+  certification scope per product.
+url: https://www.instructure.com/trust-center
+customer_portal: https://trust.instructure.com/
+sections:
+- name: Security
+  url: https://www.instructure.com/trust-center/security
+- name: Compliance
+  url: https://www.instructure.com/trust-center/compliance
+- name: Availability
+  url: https://www.instructure.com/trust-center/availability
+- name: Privacy
+  url: https://www.instructure.com/privacy-center
+- name: Legal
+  url: https://www.instructure.com/trust-center/legal
+- name: AI governance and responsibility
+  url: https://www.instructure.com/trust-center/ai-governance-responsibility
+- name: Vulnerability disclosure
+  url: https://www.instructure.com/trust-center/vulnerability-disclosure
+certifications:
+- SOC 2
+- ISO 27001
+- PCI DSS
+- TX-RAMP
+- Cyber Essentials
+- Cyber Essentials Plus
+- TRUSTe Enterprise Privacy & Data Governance
+policies:
+- name: Data Processing Addendum
+  url: https://www.instructure.com/policies/data-processing-addendum
+- name: Acceptable Use Policy
+  url: https://www.instructure.com/policies/acceptable-use
+- name: LearnPlatform Terms of Service
+  url: https://www.instructure.com/policies/learnplatform-terms-of-service
+- name: LearnPlatform Privacy Policy
+  url: https://www.instructure.com/policies/privacy-learnplatform
+- name: LearnPlatform Statement of Neutrality
+  url: https://www.instructure.com/policies/learnplatform-neutrality
+evidence:
+- source: https://www.instructure.com/trust-center
+  status: 200
+- source: https://www.instructure.com/trust-center/compliance
+  status: 200
+  keywords: [soc 2, iso 27001, pci dss, tx-ramp, cyber essentials, truste]
+- source: https://trust.instructure.com/
+  status: 200

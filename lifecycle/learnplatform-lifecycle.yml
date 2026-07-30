@@ -1,0 +1,24 @@
+generated: '2026-07-19'
+method: searched
+source: https://status.instructure.com/, https://community.instructure.com/en/categories/learnplatform-release-notes
+note: LearnPlatform ships as a hosted SaaS application with no public API, so there
+  is no API versioning scheme to record. Lifecycle signal comes from the operator,
+  Instructure — a dated release-notes stream for LearnPlatform, a shared status page
+  carrying a dedicated "Learn Platform" component, and a platform-wide enforcements /
+  deprecations / breaking-changes notice board.
+versioning:
+  scheme: none-published
+  applies_to: hosted application (no public API surface)
+release_notes: https://community.instructure.com/en/categories/learnplatform-release-notes
+deprecation:
+  policy_url: https://community.instructure.com/en/kb/articles/664261
+  policy_name: Instructure Enforcements, Deprecations, and Breaking Changes
+  scope: Instructure platform-wide; per-product breakout not published
+  sunset_header: unknown
+status_page: https://status.instructure.com/
+status_page_component: Learn Platform
+status_page_api: https://status.instructure.com/api/v2/components.json
+sla:
+  url: https://www.instructure.com/trust-center/availability
+  uptime_target: not-published
+deprecated_operations: []

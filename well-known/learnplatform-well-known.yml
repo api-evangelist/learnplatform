@@ -1,0 +1,47 @@
+generated: '2026-07-19'
+method: searched
+source: live HTTP probes
+note: learnplatform.com publishes no /.well-known/ documents. The application host
+  app.learnplatform.com returns 403 to unauthenticated probes. The only reachable
+  well-known document in LearnPlatform's operating chain is the security.txt of its
+  operator, Instructure, which names the vulnerability disclosure policy that covers
+  LearnPlatform.
+hosts:
+- host: https://learnplatform.com
+  documents:
+  - path: /.well-known/security.txt
+    status: 404
+  - path: /.well-known/openid-configuration
+    status: 404
+  - path: /.well-known/oauth-authorization-server
+    status: 404
+  - path: /.well-known/api-catalog
+    status: 404
+  - path: /.well-known/ai-plugin.json
+    status: 404
+- host: https://app.learnplatform.com
+  documents:
+  - path: /.well-known/security.txt
+    status: 403
+  - path: /.well-known/openid-configuration
+    status: 403
+  - path: /.well-known/oauth-authorization-server
+    status: 403
+  - path: /.well-known/api-catalog
+    status: 403
+  - path: /.well-known/ai-plugin.json
+    status: 403
+- host: https://www.instructure.com
+  operator: true
+  documents:
+  - path: /.well-known/security.txt
+    status: 200
+    file: learnplatform-security.txt
+  - path: /.well-known/openid-configuration
+    status: 404
+  - path: /.well-known/oauth-authorization-server
+    status: 404
+  - path: /.well-known/api-catalog
+    status: 404
+  - path: /.well-known/ai-plugin.json
+    status: 404

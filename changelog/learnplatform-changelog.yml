@@ -1,0 +1,33 @@
+generated: '2026-07-19'
+method: searched
+source: https://community.instructure.com/en/categories/learnplatform-release-notes
+scheme: dated
+cadence: irregular (roughly every 2-3 months since 2025; monthly recaps through 2024)
+current_version: '2026-04-23'
+note: Release notes are published as dated community discussions. Titles and dates
+  captured verbatim from the category listing; body highlights are not reproduced
+  here because the community pages render client-side. Follow each url for detail.
+entries:
+- date: '2026-04-23'
+  title: LearnPlatform Release Notes (2026-04-23)
+  url: https://community.instructure.com/en/discussion/665898/learnplatform-release-notes-2026-04-23
+- date: '2025-12-04'
+  title: LearnPlatform Release Notes (2025-12-04)
+  url: https://community.instructure.com/en/discussion/664289/learnplatform-release-notes-2025-12-04
+- date: '2025-10-10'
+  title: LearnPlatform Release Notes (2025-10-10)
+  url: https://community.instructure.com/en/discussion/659845/learnplatform-release-notes-2025-10-10
+- date: '2025-07-31'
+  title: LearnPlatform Release Notes (2025-07-31)
+  url: https://community.instructure.com/en/discussion/651558/learnplatform-release-notes-2025-07-31
+- date: '2025-05-15'
+  title: LearnPlatform Release Notes (2025-05-15)
+  url: https://community.instructure.com/en/discussion/644432/learnplatform-release-notes-2025-05-15
+- date: '2024-06-17'
+  title: 'LearnPlatform Release Notes 06-17-2024: Updated UI for Streamlined Navigation
+    & Accessibility'
+  url: https://community.instructure.com/en/discussion/606663/learnplatform-release-notes-06-17-2024-updated-ui-for-streamlined-navigation-accessibility
+- date: '2024-05-31'
+  title: 'LearnPlatform Release Notes: May 2024 Recap'
+  url: https://community.instructure.com/en/discussion/608405/learnplatform-release-notes-may-2024-recap
+breaking_changes_board: https://community.instructure.com/en/kb/articles/664261

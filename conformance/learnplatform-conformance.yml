@@ -1,0 +1,63 @@
+generated: '2026-07-19'
+method: searched
+source: https://www.instructure.com/trust-center/compliance, https://learnplatform.com/
+note: LearnPlatform publishes no public API, so no API-level standards (OAuth 2.0,
+  OIDC, RFC 9457, OData, JSON:API) can be asserted from a specification. The standards
+  below are education- and security-domain programs published by LearnPlatform or by
+  its operator, Instructure. Absence of an API standard here is a real finding, not a
+  gap in harvesting.
+standards:
+- id: essa-evidence
+  name: ESSA (Every Student Succeeds Act) evidence tiers
+  conforms: true
+  evidence: LearnPlatform issues ESSA Evidence Badges developed in consultation with
+    the U.S. Department of Education and the Institute of Education Sciences
+  source: https://learnplatform.com/
+- id: soc2
+  name: SOC 2
+  conforms: true
+  evidence: named on the Instructure trust center compliance page (operator-level)
+  source: https://www.instructure.com/trust-center/compliance
+- id: iso-27001
+  name: ISO/IEC 27001
+  conforms: true
+  evidence: named on the Instructure trust center compliance page (operator-level)
+  source: https://www.instructure.com/trust-center/compliance
+- id: pci-dss
+  name: PCI DSS
+  conforms: true
+  evidence: named on the Instructure trust center compliance page (operator-level)
+  source: https://www.instructure.com/trust-center/compliance
+- id: tx-ramp
+  name: TX-RAMP
+  conforms: true
+  evidence: named on the Instructure trust center compliance page (operator-level)
+  source: https://www.instructure.com/trust-center/compliance
+- id: cyber-essentials
+  name: Cyber Essentials / Cyber Essentials Plus (UK)
+  conforms: true
+  evidence: named on the Instructure trust center compliance page (operator-level)
+  source: https://www.instructure.com/trust-center/compliance
+- id: truste-enterprise-privacy
+  name: TRUSTe Enterprise Privacy & Data Governance certification
+  conforms: true
+  evidence: named on the Instructure trust center compliance page (operator-level)
+  source: https://www.instructure.com/trust-center/compliance
+- id: rfc9116-security-txt
+  name: RFC 9116 security.txt
+  conforms: partial
+  evidence: served at instructure.com (operator) but not at learnplatform.com (404)
+  source: well-known/learnplatform-well-known.yml
+- id: oauth2
+  conforms: false
+  evidence: no public API or securityScheme published
+- id: oidc
+  conforms: false
+  evidence: no public /.well-known/openid-configuration on any LearnPlatform host
+- id: rfc9457-problem-details
+  conforms: false
+  evidence: no public API specification published
+- id: lti-advantage
+  conforms: unknown
+  evidence: Instructure supports LTI Advantage across the platform; no LearnPlatform-specific
+    LTI conformance claim was found
