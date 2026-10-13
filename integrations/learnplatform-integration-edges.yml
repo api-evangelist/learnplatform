@@ -1,0 +1,25 @@
+generated: '2026-10-13'
+method: searched
+checked:
+- https://aws.amazon.com/marketplace/
+marketplace_apps: []
+edges:
+- partner_name: AWS Marketplace
+  partner: amazon-web-services
+  partner_match: aggregator
+  type: marketplace
+  marketplace: aws-marketplace
+  channel: distribution
+  relationship: platform-app
+  direction: provider-built
+  evidence: https://aws.amazon.com/marketplace/seller-profile?id=f9d6040f-b862-4405-98f5-127e5e3a8ae7
+  listing_count: 6
+  apps:
+  - 'LearnPlatform Evidence-as-a-Service: Validation (3 studies), 2023'
+  - 'LearnPlatform Evidence-as-a-Service: Evidence Subscription 2023'
+  - 'LearnPlatform Evidence-as-a-Service: IMPACT Ready 2023'
+  - 'LearnPlatform Evidence-as-a-Service: Validation (6 studies), 2023'
+  - 'LearnPlatform Evidence-as-a-Service: Replication (4 studies), 2023'
+  seller_name: LearnPlatform, Inc.
+  detected_by: sweep-cloud-marketplaces.py
+  detected: '2026-10-13'
