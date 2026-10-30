@@ -64,23 +64,93 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-LearnPlatform by Instructure is an edtech effectiveness system used by K-12 school districts to organize, streamline, and analyze their education technology — an inventory dashboard of the tools students and educators actually use, rapid-cycle evaluation, ESSA Evidence Badges developed in consultation with the U.S. Department of Education and the Institute of Education Sciences, request and approval workflows, student data privacy review, and public product libraries.
+LearnPlatform by Instructure is an edtech effectiveness system used by K-12 school districts to organize, streamline, and analyze their education technology. It provides an inventory dashboard of the tools students and educators actually use, rapid-cycle evaluation for measuring impact, ESSA Evidence Badges developed in consultation with the U.S. Department of Education and the Institute of Education Sciences, request and approval workflows, student data privacy and compliance review, and public product libraries for family communication. LearnPlatform Inc. was a Techstars portfolio company and was acquired by Instructure in January 2023; learnplatform.com now redirects into instructure.com product, policy, and support pages, while the application itself is served from app.learnplatform.com. LearnPlatform publishes no public developer API, OpenAPI definition, or SDK surface of its own — Instructure's public developer program (developerdocs.instructure.com) covers Canvas LMS and related services, not LearnPlatform.
 
-LearnPlatform Inc. was a Techstars portfolio company and was acquired by Instructure in January 2023. `learnplatform.com` now redirects into `instructure.com` product, policy, and support pages; the application is served from `app.learnplatform.com`.
+**Areas:** Company · Education · EdTech · K-12 · Learning · Analytics · Student Data Privacy · Evidence · Instructure
 
-**No public API.** LearnPlatform publishes no developer API, OpenAPI definition, SDK, or CLI. Instructure's developer program (https://developerdocs.instructure.com/) covers Canvas LMS and related services, not LearnPlatform. This repository therefore carries identity, lifecycle, and security/trust artifacts rather than specification artifacts.
+## LearnPlatform on APIs.io
 
-## Artifacts
+Everything profiled for LearnPlatform is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/learnplatform/](https://apis.io/providers/learnplatform/)** — or go straight to one of the APIs or properties below.
 
-| Artifact | File |
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (3)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Learnplatform Domain Security](https://apis.io/security/learnplatform/learnplatform-domain-security/)
+- [Learnplatform Trust Center](https://apis.io/security/learnplatform/learnplatform-trust-center/)
+- [Learnplatform Vulnerability Disclosure](https://apis.io/security/learnplatform/learnplatform-vulnerability-disclosure/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://learnplatform.com/)
+- [Documentation](https://community.instructure.com/en/categories/learnplatform)
+- [Sign up](https://www.instructure.com/k12/products/learnplatform/request-a-demo)
+- [Support](https://community.instructure.com/en/categories/learnplatform)
+- [Changelog](https://community.instructure.com/en/categories/learnplatform-release-notes)
+- [Blog](https://www.instructure.com/resources/blog?product_id=481)
+- [Security](https://www.instructure.com/trust-center/vulnerability-disclosure)
+- [Compliance](https://www.instructure.com/trust-center/compliance)
+- [Trust centre](https://www.instructure.com/trust-center)
+- [Terms of service](https://www.instructure.com/policies/learnplatform-terms-of-service)
+- [Privacy policy](https://www.instructure.com/policies/privacy-learnplatform)
+- [GitHub](https://github.com/instructure)
+- [Status](https://status.instructure.com/)
+
+## API Evangelist rating
+
+**Kin Score 31.8** — thin · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
 |---|---|
-| Changelog | `changelog/learnplatform-changelog.yml` |
-| Conformance | `conformance/learnplatform-conformance.yml` |
-| Lifecycle | `lifecycle/learnplatform-lifecycle.yml` |
-| llms.txt | `llms/learnplatform-llms.txt` |
-| Domain security | `security/learnplatform-domain-security.yml` |
-| Vulnerability disclosure | `security/learnplatform-vulnerability-disclosure.yml` |
-| Trust center | `security/learnplatform-trust-center.yml` |
-| Well-known | `well-known/learnplatform-well-known.yml` + `well-known/learnplatform-security.txt` |
+| Discoverability | 55.4 |
+| Contract quality | 0.0 |
+| Contract governance | 18.2 |
+| Operational transparency | 55.3 |
+| Developer ergonomics | 26.2 |
+| Access clarity | 50.0 |
 
-Website: https://learnplatform.com/ — Product: https://www.instructure.com/k12/products/learnplatform
+**Agent readiness 0.0** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 29.4** — Education & Research
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/learnplatform/](https://apis.io/providers/learnplatform/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for LearnPlatform: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/learnplatform/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
